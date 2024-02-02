@@ -11,7 +11,7 @@ first-place.blend.part_x files used to be first-place.blend -> they have been sp
 To put it back together if you need ->
 
 linux:
-cat first-place.blend*part*\* > first-place.blend
+cat first-place.blend_part\_\* > first-place.blend
 
 windows:
 copy /b first-place.blend_part_aa+first-place.blend_part_ab+first-place.blend_part_ac first-place.blend
